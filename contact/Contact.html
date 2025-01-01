@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/cultLogo" href="../assets/cultLogo 1.png" />
+    <title>Cult Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="Contact.css" />
+    <link rel="stylesheet" type="text/css" href="../App.css" />
+    <link href="../assets/css/all.css" rel="stylesheet" />
+    <a href="../Home/Home.html"
+      ><img class="logo" src="../assets/cultLogo 2.png" alt="Logo"
+    /></a>
+  </head>
+  <body>
+    <div class="title">
+      <h1>
+        We'd love to hear from you! Whether you have questions, need more
+        information, or are ready to start a project, our team is here to help.
+      </h1>
+    </div>
+
+    <!--Contact form-->
+    <div class="contact">
+      <h1 class="formtitle">Get In Touch!</h1>
+      <form
+        id="contact_form"
+        action="https://api.web3forms.com/submit"
+        method="POST"
+        enctype="multipart/form-data"
+      >
+        <div class="row">
+          <input
+            type="hidden"
+            name="access_key"
+            value="59e7fa59-55eb-46ee-acca-ae40fc6b8dbb"
+          />
+          <label class="required" for="name">Your name:</label><br />
+          <input
+            id="name"
+            class="input"
+            name="name"
+            type="text"
+            value=""
+            required
+            size="30"
+          /><br />
+          <span id="name_validation" class="error_message"></span>
+        </div>
+        <div class="row">
+          <label class="required" for="email">Your email:</label><br />
+          <input
+            id="email"
+            class="input"
+            name="email"
+            type="text"
+            value=""
+            required
+            size="30"
+          /><br />
+          <span id="email_validation" class="error_message"></span>
+        </div>
+        <div class="row">
+          <label class="required" for="inquiryType">Inquiry Type</label><br />
+          <select name="inquiryType" id="inquiryType">
+            <option value="general Inquiry">General Inquiry</option>
+            <option value="service Booking">Service Booking</option>
+            <option value="partnership">Partenership</option>
+          </select>
+        </div>
+        <div class="row">
+          <label class="required" for="message">Your message:</label><br />
+          <textarea
+            id="message"
+            class="input"
+            name="message"
+            required
+            rows="7"
+            cols="30"
+          ></textarea
+          ><br />
+          <span id="message_validation" class="error_message"></span>
+        </div>
+        <input id="submit_button" type="submit" value="Send Message" />
+        <!--<i class="fa-solid fa-comment icon" style="color: #000000;"></i>-->
+      </form>
+    </div>
+    <div class="img">
+      <img src="../assets/contact 1.png" alt="" />
+    </div>
+    <script src="contact.js"></script>
+  </body>
+
+  <footer>
+    <div class="footer">
+      <div class="contact-info">
+        <h2>Contact info</h2>
+        <ul>
+          <li>
+            <h4>Phone:</h4>
+            <a href="tel:+20 150 051 1826">+20 150 051 1826</a>
+          </li>
+          <li>
+            <h4>Email:</h4>
+            <a href="mailto:info@cultsmma.com">info@cultsmma.com</a>
+          </li>
+        </ul>
+      </div>
+      <div class="quickLinks">
+        <ul>
+          <li>
+            <a href="../Home/Home.html">Home</a>
+          </li>
+          <li>
+            <a href="../About/About.html">About</a>
+          </li>
+          <li>
+            <a href="../services/Services.html">Services</a>
+          </li>
+          <li>
+            <a href="../portfolio/Portfolio.html">Portfolio</a>
+          </li>
+          <li>
+            <a href="../blogs/blog.html">Blog</a>
+          </li>
+          <li>
+            <a href="../contact/Contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <div class="location">
+        <h1>Cairo</h1>
+        <h3>Sheikh Zayed</h3>
+      </div>
+      <div class="socialmedias">
+        <ul>
+          <li>
+            <a
+              href="https://www.facebook.com/share/jesgLuCXhcfqft8c/?mibextid=LQQJ4d"
+            >
+              Facebook
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/cult_smma?igsh=NnZjMWp6bHJkdGJx">
+              Instagram
+            </a>
+          </li>
+          <li>
+            <a href="https://www.tiktok.com/@cult_agency?_t=8pTN4pQa5QI&_r=1">
+              Tiktok
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://l.instagram.com/?u=https%3A%2F%2Fwww.linkedin.com%2Fposts%2Fcult-business-solutions_cultagency-cultkit-webdevelopment-activity-7219334971071614977-qQtx%3Futm_source%3Dshare%26utm_medium%3Dmember_ios&e=AT2QMx83EKAxrICxeQ2vOywP5KKmjxH6sdcQ9CuwEnk8dtD8XrBI_QFZ5ucQuRYfR1-AwQPwQ3RJQkfY1YaEZzRr71Ajzs8d6q9nCw"
+            >
+              Linkdeln
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</html>

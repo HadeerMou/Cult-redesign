@@ -1,0 +1,104 @@
+* {
+  background-color: #181818;
+  color: white;
+}
+
+.Title {
+  font-size: 280px;
+  text-align: center;
+  padding: 7rem;
+}
+.i {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  width: 50%;
+  height: 2px;
+  background-color: white;
+}
+
+.text {
+  padding: 6rem;
+  text-align: center;
+  max-width: 70pc;
+  margin-left: 8%;
+}
+.text h1 {
+  padding: 2rem;
+  font-size: 50px;
+}
+.text p {
+  padding: 1rem;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.overview img,
+.text {
+  display: inline-block;
+}
+
+.overview img {
+  width: 600px;
+  height: 600px;
+  padding: 30px;
+}
+
+.mission,
+.vision {
+  font-size: 30px;
+  max-width: 50pc;
+  padding: 30px;
+  margin: 60px;
+}
+.mission h1,
+.vision h1 {
+  margin-bottom: 100px;
+}
+.vision {
+  float: right;
+}
+.s1 {
+  border-top: 1px dotted;
+}
+.s2 {
+  border-top: 1px dotted;
+  margin-top: -40px;
+}
+.services {
+  margin-top: 20px;
+  justify-content: space-evenly;
+  background: rgba(255, 255, 255, 0.89);
+}
+.serv {
+  text-align: center;
+}
+.serv li {
+  font-size: 30px;
+  margin: 50px;
+  display: inline;
+  padding: 20px;
+  color: rgba(242, 147, 147, 0.937);
+}
+
+.story {
+  width: 100%;
+  height: 900px;
+  margin: 20px 0px;
+}
+
+.storytitle {
+  text-align: center;
+  font-size: 90px;
+  padding: 30px;
+}
+.arrow {
+  margin-left: 48%;
+  text-shadow: 2px 2px 5px white;
+}
+
+.ourstory {
+  font-size: 30px;
+  text-align: center;
+  line-height: 40px;
+  padding: 8rem;
+}
