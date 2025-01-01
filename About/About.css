@@ -101,4 +101,9 @@
   text-align: center;
   line-height: 40px;
   padding: 8rem;
+  padding-top: 80px;
+}
+
+.ourstory p {
+  color: rgb(227, 180, 180);
 }
